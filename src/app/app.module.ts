@@ -10,9 +10,6 @@ import { DropdownDirective } from './shared/dropdown.directive';
 import { AppRoutingModule } from './app-routing.module';
 import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinner.component';
 import { AuthInterceptorService } from './auth/auth-interceptor.service';
-import { RecipesModule } from './recipes/recipes.module';
-import { ShoppingListModule } from './shopping-list/shopping-list.module';
-import { AuthModule } from './auth/auth.module';
 import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core.module';
 
@@ -25,9 +22,6 @@ import { CoreModule } from './core.module';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    RecipesModule,
-    ShoppingListModule,
-    AuthModule,
     SharedModule,
     CoreModule
   ],
